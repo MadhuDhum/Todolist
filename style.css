@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ----------------------------------------------Html 1 -------------------------------------------------------------------- */
+
+
+
+/* navbar */
+.nav{
+    display: flex;
+    flex-direction: row;
+    left: 15px;
+    top: 15px;
+    position: fixed;
+}
+
+.nav .item1{
+    position: relative;
+    font-size: 20px;
+}
+
+.nav .item2{
+    position: relative;
+    left: 10px;
+}
+
+.nav .item3{
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav .item4{
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+
+/* Head section  */
+.head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 350px;
+    top: 120px;
+    
+}
+
+.head .div2{
+    position: relative;
+    color: red;
+    left: 460px;
+    font-size: 20px;
+}
+
+.head .div3{
+    position: relative;
+    left: 470px;
+    font-size: 20px;
+}
+
+/* card section  */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+    border: 1px solid red;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    top: 120px;
+    left: 300px;
+    margin: 30px;
+}
+
+.card1 .box1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    height: 15%;
+    color: red;
+    border-bottom: 1px solid black;
+}
+
+.card1 .box2{
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    color: red;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+    left: 50px;
+}
+
+.card1 .box3{
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    position: absolute;
+    top: 52%;
+}
+
+.card1 .box3 #check{
+    margin: 6px;
+    height: 18px;
+    width: 18px;
+}
+
+/* footer  */
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0px;
+    color: gray;
+    text-decoration: none;
+    position: fixed;
+    text-align: center;
+    left: 45%;
+}
+
+.buttons a{
+    color: rgb(63, 60, 60);
+    margin: 5px;
+}
+
+
+/* ----------------------------------------------Html 2 -------------------------------------------------------------------- */
+/* header section  */
+.header{
+    position: relative;
+    left: 560px;
+    align-items: center;
+    line-height: 60px;
+    top: 20px;
+}
+
+.header .box1{ 
+    font-size: 20px;
+}
+
+.header .box23{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 50px;
+}
+
+.header .box2{
+    color: red;
+    font-size: 20px;
+}
+
+.header .box3{
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+}
+
+.card2{
+border: 1px solid red;
+    height: 45vh;
+    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    top: 50px;
+    left: 500px;
+    margin: 30px;
+}
+
+.card2 .box1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    height: 15%;
+    color: red;
+    border-bottom: 1px solid black;
+}
+
+.card2 .box2{
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    color: red;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+    left: 50px;
+}
+
+.card2 .box3{
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    position: absolute;
+    top: 52%;
+    left: 40px;
+}
+
+.card2 .box3 #check{
+    margin: 6px;
+    height: 18px;
+    width: 18px;
+}
+
+.card2 .box4{
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    position: absolute;
+    top: 250px;
+    left: 240px;
+    color: red;
+}
+
+
+/* ----------------------------------------------Html 3 & 4 -------------------------------------------------------------------- */
+
+
+.blurbox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 99, 99);
+    height: 150px;
+    width: 300px;
+    align-items: center;
+    line-height: 32px;
+    position: relative;
+    left: 38%;
+    background-color: white;
+    bottom: 250px;
+    border-radius: 20px;
+}
+
+.blurbox .div1{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    color: red;
+}
+
+.blurbox .div1 label{
+    position: relative;
+    left: 40px;   
+    font-size: 25px;
+}
+
+.blurbox .div1 input{
+    font-size: 20px;
+    border: 1px solid red;
+}
+
+.blurbox .div2 .btn{
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    position: relative;
+    top: 25px;
+}
+.blur1{
+    filter: blur(4px);
+}
